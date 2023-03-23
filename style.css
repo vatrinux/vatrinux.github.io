@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(194, 194, 194);
+    color: rgb(240, 240, 240);
+}
+
+header {
+    background-color: rgb(240, 240, 240);
+    color: rgb(58, 58, 58);
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+header p {
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    font-size: 0.7em;
+    margin: auto;
+    padding: 0px center;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+main {
+    background-color: rgb(58, 58, 58);
+    margin: auto;
+    padding: 15px;
+    min-width: 300px;
+    max-width: 600px;
+    text-align: justify;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+article h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+div {
+    margin: auto;
+    padding: 0px center;
+    min-width: 300px;
+    max-width: 600px;
+}
+
+div h2 {
+    margin: 20px 0px;
+}
+
+div h3 {
+    margin: 20px 0px;
+}
+
+div#fig1 {
+    margin: 10px;
+}
+
+div#fig2 {
+    margin: 10px;
+}
+
+div#fig3 {
+    margin: 10px;
+}
+
+div#fig4 {
+    margin: 10px;
+}
+
+ul a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li {
+    margin: 15px 30px;
+}
+
+ul a:hover {
+    text-decoration: underline;
+} 
+
+footer {
+    background-color: rgb(58, 58, 58);
+    color: rgb(240, 240, 240);
+    font-size: 0.7em;
+    padding: 3px;
+    text-align: center;
+    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.5);
+}
+
+footer p {
+    font-weight: bold;
+    margin: 1px;
+}
