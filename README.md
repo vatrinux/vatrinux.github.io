@@ -1,4 +1,4 @@
-# Meus Projetos Pessoais
+## Meus Projetos Pessoais
 Primeiro projeto pessoal para estudo de HTML5 e CSS3. Atualmente estou fazendo aulas online com o **[Prof. Gustavo Guanabara](https://github.com/gustavoguanabara)** pelo site do **[Curso em Vídeo](https://cursoemvideo.com)**.
 
 ### Link da hospedagem do projeto:
