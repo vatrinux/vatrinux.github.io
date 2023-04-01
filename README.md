@@ -2,17 +2,17 @@
 Primeiro projeto pessoal para estudo de HTML5 e CSS3. Atualmente estou fazendo aulas online com o **[Prof. Gustavo Guanabara](https://github.com/gustavoguanabara)** pelo site do **[Curso em Vídeo](https://cursoemvideo.com)**.
 
 ### Link da hospedagem do projeto:
-✅ **[Projeto Página Pessoal](https://vatrinux.github.io)**
+- **[Projeto Site Principal](https://vatrinux.github.io)**
 
 ### Links de outros projetos criados por mim:
-✅ **[Projeto BioLinks](https://vatrinux.github.io/biolinks)**
+- **[Projeto BioLinks](https://vatrinux.github.io/biolinks)**
 
 ### Links do curso no YouTube:
-1️⃣ **[MÓDULO 1](https://youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n)**  
-2️⃣ **[MÓDULO 2](https://youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s)**  
-3️⃣ **[MÓDULO 3](https://youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ)**  
-4️⃣ **[MÓDULO 4](https://youtube.com/playlist?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT)**  
-🔜 **[MÓDULO 5](#) (Em construção)**
+1 **[MÓDULO 1](https://youtube.com/playlist?list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n)**  
+- **[MÓDULO 2](https://youtube.com/playlist?list=PLHz_AreHm4dlUpEXkY1AyVLQGcpSgVF8s)**  
+- **[MÓDULO 3](https://youtube.com/playlist?list=PLHz_AreHm4dmcAviDwiGgHbeEJToxbOpZ)**  
+- **[MÓDULO 4](https://youtube.com/playlist?list=PLHz_AreHm4dkcVCk2Bn_fdVQ81Fkrh6WT)**  
+- **[MÓDULO 5](#) (Em construção)**
 
 ---
 ## Direitos de uso
