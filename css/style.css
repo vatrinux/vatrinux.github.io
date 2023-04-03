@@ -66,28 +66,52 @@ main {
 }
 
 main h1 {
-  font-family: var(--font2);
+  font-family: var(--font1);
   font-size: 2em;
   font-weight: bolder;
   color: #000;
-  padding: 10px 10px;
-  text-align: center;
+  padding: 10px 50px;
   text-decoration: underline;
 }
 
 main p {
+  font-family: var(--font0);
   font-size: 1.2em;
   margin: 0px 30px;
 }
 
-picture img{
+main picture img{
   width: 300px;
   height: 200px;
 }
 
+main fieldset {
+  margin: 2em;
+  padding: 2em;
+}
+
+main legend {
+  font-family: var(--font1);
+  font-size: 2em;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+main form label, input {
+  font-family: var(--font0);
+  font-size: 1.2em;
+  margin: 5px 30px;
+}
+
+main form div.buttom input {
+  font-family: var(--font0);
+  margin: 15px 0px 10px 50px;
+  padding: 5px 30px;
+}
+
 footer {
   background-color: #000;
-  font-family: var(--font2);
+  font-family: var(--font1);
   font-size: 1em;
   color: #eee;
   text-align: center;

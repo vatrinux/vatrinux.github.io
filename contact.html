@@ -25,22 +25,27 @@
 		</nav>
 	</header>
 	<main>
-		<h1>Entre em Contato</h1>
-		<form action="contato.php" autocomplete="off">
-			<label for="nome">
-				<p>Nome: <input type="text" name="nome" id="nome"></p>
-			</label>
-			<label for="telefone">
-				<p>Telefone: <input type="tel" name="telefone" id="telefone"></p>
-			</label>
-			<label for="email">
-				<p>E-Mail: <input type="email" name="email" id="email"></p>
-			</label>
-			<label for="comentario">
-				<p>Comentário: <input type="text" name="comentario" id="comentario"></p>
-			</label>
-			<p><input type="submit" value="ENVIAR"></p>
-		</form>
+		<fieldset>
+			<legend>Entre em Contato</legend>
+			<form action="cadastro.php" method="get" autocomplete="on">
+				<div>
+					<label for="iname">Nome:</label>
+					<input type="text" name="name" id="iname" autocomplete="name" minlength="5" maxlength="25" placeholder="Nome completo" required>
+				</div>
+				<div>
+					<label for="imail">E-mail:</label>
+					<input type="email" name="mail" id="imail" autocomplete="email" placeholder="exemplo@exemplo.com" required>
+				</div>
+				<div>
+					<label for="itel">Telefone</label>
+					<input type="tel" name="tel" id="itel" autocomplete="tel" placeholder="(xx)xxxxx-xxxx" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
+				</div>
+				<div class="buttom">
+					<input type="submit" value="Enviar">
+					<input type="reset" value="Limpar">
+				</div>
+			</form>
+		</fieldset>
 	</main>
 	<footer>
 		<p>Desenvolvido com 🤍 por Juliano Vatre</p>
