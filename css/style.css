@@ -21,12 +21,13 @@
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #eee;
   padding: 10px;
 }
 
 header {
-  background-color: #000;
+  background-color: #123;
   font-family: var(--font1);
   font-size: 1.4em;
   color: #eee;
@@ -47,21 +48,20 @@ header nav {
 header nav a {
   font-family: var(--font1);
   font-size: 1em;
-  color: #000;
+  color: #123;
   padding: 0px 10px;
   text-decoration: none;
 }
 
 header nav a:hover {
-  background-color: #000;
+  background-color: #123;
   transition: 0.7s;
   color: #eee;
   border-radius: 3px;
 }
 
 main {
-  font-family: var(--font0);
-  color: #000;
+  color: #123;
   text-align: justify;
 }
 
@@ -69,15 +69,18 @@ main h1 {
   font-family: var(--font1);
   font-size: 2em;
   font-weight: bolder;
-  color: #000;
+  color: #123;
   padding: 10px 50px;
-  text-decoration: underline;
 }
 
 main p {
-  font-family: var(--font0);
   font-size: 1.2em;
-  margin: 0px 30px;
+  margin: 30px 30px;
+}
+
+main p a, span {
+  font-weight: bold;
+  color: #123;
 }
 
 main picture img{
@@ -98,21 +101,19 @@ main legend {
 }
 
 main form label, input {
-  font-family: var(--font0);
   font-size: 1.2em;
   margin: 5px 30px;
 }
 
 main form div.buttom input {
-  font-family: var(--font0);
   margin: 15px 0px 10px 50px;
   padding: 5px 30px;
 }
 
 footer {
-  background-color: #000;
+  background-color: #123;
   font-family: var(--font1);
-  font-size: 1em;
+  font-size: 0.95em;
   color: #eee;
   text-align: center;
   padding: 10px;
