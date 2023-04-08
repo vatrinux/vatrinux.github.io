@@ -81,6 +81,11 @@ main p {
 main p a {
   font-weight: bold;
   color: #123;
+  text-decoration: none;
+}
+
+main p a:hover {
+  text-decoration: underline;
 }
 
 main picture img{
