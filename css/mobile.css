@@ -17,8 +17,9 @@
   --font3: "Bungee", cursiva;
 }
 
-/* CONFIGURAÇÕES PARA DISPOSITIVOS GERAIS */
+/* CONFIGURAÇÕES PARA DISPOSITIVOS MOBILE */
 * {
+  width: 386px;
   margin: 0px;
   padding: 0px;
 }
@@ -46,7 +47,7 @@ header {
 header nav {
   background-color: #eee;
   text-align: center;
-  width: 400px;
+  width: 300px;
   margin: 20px auto;
   padding: 1.2px;
   border-radius: 3px;
@@ -69,7 +70,7 @@ header nav a:hover {
 
 /* CONFIGURAÇÕES DO CONTEÚDO */
 section {
-  width: 600px;
+  width: 300px;
   margin: auto;
 }
 
