@@ -6,12 +6,9 @@
 /* CONFIGURAÇÕES DE ATALHOS */
 :root {
     --font: "Titan One", cursiva;
-    --facebook: #1877f2;
     --instagram: #e2306c;
-    --messenger: #1877f2;
     --whatsapp: #25d366;
-    --discord: #5865f2;
-    --twitter: #1d9bf0;
+    --github: #0d1117;
     --telegram: #29a9ea;
 }
 
@@ -59,6 +56,7 @@ span#burguer:hover {
 menu {
     width: 600px;
     font-size: 0.5em;
+    text-transform: uppercase;
     text-align: center;
     margin: auto;
     padding: 1.2px;
@@ -77,7 +75,7 @@ menu>ul>li>a {
     width: 300px;
     color: #eee;
     border-radius: 3px;
-    padding: 10px 10px;
+    padding: 1px 10px;
     text-align: center;
     text-decoration: none;
 }
@@ -86,14 +84,14 @@ menu>ul>li>a:hover {
     width: 300px;
     background-color: #eee;
     color: #101;
-    padding: 10px 10px;
+    padding: 1px 10px;
     transition: 0.7s;
     border-radius: 3px;
 }
 
 /* CONFIGURAÇÕES DO CONTEÚDO INICIAL */
 section {
-    width: 600px;
+    width: 800px;
     margin: auto;
 }
 
@@ -115,6 +113,7 @@ main p {
     font-size: 1.2em;
     color: #101;
     margin: 30px 30px;
+    text-indent: 2em;
     text-align: justify;
 }
 
@@ -137,8 +136,8 @@ legend {
 
 /* CONFIGURAÇÕES DO CONTEÚDO CONTATO */
 div.perfil img {
-    height: 300px;
-    width: 300px;
+    height: 250px;
+    width: 250px;
     margin: 30px;
     border-radius: 50%;
     box-shadow: 0 0 10px #101;
@@ -155,54 +154,30 @@ div button {
     border-radius: 3px;
     text-align: center;
     box-shadow: 0 0 5px #eee;
-}
-
-button.facebook:hover {
-    background-color: var(--facebook);
-    transition: 300ms;
-    color: #101;
-    box-shadow: 0 0 10px var(--facebook);
+    cursor: pointer;
 }
 
 button.instagram:hover {
     background-color: var(--instagram);
     transition: 300ms;
-    color: #101;
     box-shadow: 0 0 10px var(--instagram);
-}
-
-button.messenger:hover {
-    background-color: var(--messenger);
-    transition: 300ms;
-    color: #101;
-    box-shadow: 0 0 10px var(--messenger);
 }
 
 button.whatsapp:hover {
     background-color: var(--whatsapp);
     transition: 300ms;
-    color: #101;
     box-shadow: 0 0 10px var(--whatsapp);
 }
 
-button.discord:hover {
-    background-color: var(--discord);
+button.github:hover {
+    background-color: var(--github);
     transition: 300ms;
-    color: #101;
-    box-shadow: 0 0 10px var(--discord);
-}
-
-button.twitter:hover {
-    background-color: var(--twitter);
-    transition: 300ms;
-    color: #101;
     box-shadow: 0 0 10px var(--twitter);
 }
 
 button.telegram:hover {
     background-color: var(--telegram);
     transition: 300ms;
-    color: #101;
     box-shadow: 0 0 10px var(--telegram);
 }
 
