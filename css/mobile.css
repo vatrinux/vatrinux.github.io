@@ -19,6 +19,7 @@
     }
 
     menu {
+        width: 300px;
         display: none;
     }
 
@@ -26,7 +27,7 @@
         display: block;
     }
 
-    main {
+    section {
         width: 300px;
     }
 }
