@@ -26,16 +26,16 @@
 /* CONFIGURAÇÕES DO CORPO */
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #eee;
+  background-color: #101;
   padding: 10px;
 }
 
 /* CONFIGURAÇÕES DO CABEÇALHO */
 header {
-  background-color: #123;
+  background-color: #eee;
   font-family: var(--font1);
   font-size: 1.4em;
-  color: #eee;
+  color: #101;
   text-align: center;
   margin: -10px;
   padding: 20px 100px;
@@ -44,7 +44,7 @@ header {
 
 /* CONFIGURAÇÕES DO MENU DE NAVEGAÇÃO */
 header nav {
-  background-color: #eee;
+  background-color: #101;
   text-align: center;
   width: 400px;
   margin: 20px auto;
@@ -55,15 +55,15 @@ header nav {
 header nav a {
   font-family: var(--font1);
   font-size: 1em;
-  color: #123;
+  color: #eee;
   padding: 0px 10px;
   text-decoration: none;
 }
 
 header nav a:hover {
-  background-color: #123;
+  background-color: #eee;
   transition: 0.7s;
-  color: #eee;
+  color: #101;
   border-radius: 3px;
 }
 
@@ -74,7 +74,7 @@ section {
 }
 
 main {
-  color: #123;
+  color: #101;
   margin-top: 20px;
   text-align: justify;
 }
@@ -83,18 +83,19 @@ main h1 {
   font-family: var(--font1);
   font-size: 2em;
   font-weight: bolder;
-  color: #123;
+  color: #eee;
   padding: 10px 50px;
 }
 
 main p {
   font-size: 1.2em;
+  color: #eee;
   margin: 30px 30px;
 }
 
 main p a {
   font-weight: bold;
-  color: #123;
+  color: #eee;
   text-decoration: none;
 }
 
@@ -102,6 +103,7 @@ main p a:hover {
   text-decoration: underline;
 }
 
+/* CONFIGURAÇÕES DE IMAGENS */
 main picture img{
   width: 300px;
   height: 200px;
@@ -119,22 +121,12 @@ main legend {
   text-decoration: underline;
 }
 
-main form label, input {
-  font-size: 1.2em;
-  margin: 5px 30px;
-}
-
-main form div.buttom input {
-  margin: 15px 0px 10px 50px;
-  padding: 5px 30px;
-}
-
 /* CONFIGURAÇÕES DO RODAPÉ */
 footer {
-  background-color: #123;
+  background-color: #eee;
   font-family: var(--font1);
   font-size: 0.95em;
-  color: #eee;
+  color: #101;
   text-align: center;
   padding: 10px;
   margin-top: 100px;

@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Lobster';
+    src: url(fonts/Lobster-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Lobster Two';
+    src: url(fonts/LobsterTwo-Regular.ttf);
+}
+
+:root {
+    --color0: #dddada;
+    --facebook: #1877f2;
+    --instagram: #e2306c;
+    --messenger: #1877f2;
+    --whatsapp: #25d366;
+    --discord: #5865f2;
+    --twitter: #1d9bf0;
+    --telegram: #29a9ea;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #101;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+header img {
+    height: 300px;
+    width: 300px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fff;
+}
+
+header p {
+    font-family: 'Lobster', cursive;
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header a:hover {
+    color: #fff;
+    text-shadow: 0 0 20px #fff;
+}
+
+header div {
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #fff;
+}
+
+main {
+    text-align: center;
+}
+
+main button {
+    background-color: #100;
+    font-size: 1.5em;
+    color: #fff;
+    margin-top: 3px;
+    padding: 7px;
+    width: 270px;
+    border-width: 0;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0 0 5px #fff;
+}
+
+main a button.facebook:hover {
+    background-color: var(--facebook);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--facebook);
+}
+
+main a button.instagram:hover {
+    background-color: var(--instagram);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--instagram);
+}
+
+main a button.messenger:hover {
+    background-color: var(--messenger);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--messenger);
+}
+
+main a button.whatsapp:hover {
+    background-color: var(--whatsapp);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--whatsapp);
+}
+
+main a button.discord:hover {
+    background-color: var(--discord);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--discord);
+}
+
+main a button.twitter:hover {
+    background-color: var(--twitter);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--twitter);
+}
+
+main a button.telegram:hover {
+    background-color: var(--telegram);
+    transition: 300ms;
+    color: #000;
+    box-shadow: 0 0 10px var(--telegram);
+}
+
+footer {
+    font-family: 'Lobster Two', cursive;
+    font-size: 1.1em;
+    color: #fff;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    border-top: 1.2px solid #fff;
+}
