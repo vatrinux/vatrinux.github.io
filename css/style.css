@@ -8,129 +8,213 @@
 
 /* CONFIGURAÇÕES DE ATALHOS */
 :root {
-  --cor0: #00acee;
-  --cor1: #2bc4ff;
-  --cor2: #008abe;
-  --font0: "Chivo Mono", cursiva;
-  --font1: "Titan One", cursiva;
-  --font2: "Luckiest Guy", cursiva;
-  --font3: "Bungee", cursiva;
+    --cor0: #00acee;
+    --cor1: #2bc4ff;
+    --cor2: #008abe;
+    --font0: "Chivo Mono", cursiva;
+    --font1: "Titan One", cursiva;
+    --font2: "Luckiest Guy", cursiva;
+    --font3: "Bungee", cursiva;
+
+/* CONFIGURAÇÕES DA PÁGINA CONTATOS */
+    --color0: #dddada;
+    --facebook: #1877f2;
+    --instagram: #e2306c;
+    --messenger: #1877f2;
+    --whatsapp: #25d366;
+    --discord: #5865f2;
+    --twitter: #1d9bf0;
+    --telegram: #29a9ea;
 }
 
-/* CONFIGURAÇÕES PARA DISPOSITIVOS GERAIS */
+/* CONFIGURAÇÕES GERAIS */
 * {
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 /* CONFIGURAÇÕES DO CORPO */
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #101;
-  padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    padding: 10px;
 }
 
 /* CONFIGURAÇÕES DO CABEÇALHO */
 header {
-  background-color: #eee;
-  font-family: var(--font1);
-  font-size: 1.4em;
-  color: #101;
-  text-align: center;
-  margin: -10px;
-  padding: 20px 100px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+    background-color: #101;
+    font-family: var(--font1);
+    font-size: 3em;
+    color: #eee;
+    text-align: center;
+    margin: -10px;
+    padding: 20px 100px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
-
+  
 /* CONFIGURAÇÕES DO MENU DE NAVEGAÇÃO */
 header nav {
-  background-color: #101;
-  text-align: center;
-  width: 400px;
-  margin: 20px auto;
-  padding: 1.2px;
-  border-radius: 3px;
+    background-color: #eee;
+    font-size: 0.5em;
+    text-align: center;
+    width: 400px;
+    margin: 20px auto;
+    padding: 1.2px;
+    border-radius: 3px;
 }
-
+  
 header nav a {
-  font-family: var(--font1);
-  font-size: 1em;
-  color: #eee;
-  padding: 0px 10px;
-  text-decoration: none;
+    font-family: var(--font1);
+    color: #101;
+    padding: 0px 10px;
+    text-decoration: none;
 }
-
+  
 header nav a:hover {
-  background-color: #eee;
-  transition: 0.7s;
-  color: #101;
-  border-radius: 3px;
+    background-color: #101;
+    transition: 0.7s;
+    color: #eee;
+    border-radius: 3px;
 }
 
-/* CONFIGURAÇÕES DO CONTEÚDO */
+/* CONFIGURAÇÕES DO CONTEÚDO INICIAL */
 section {
-  width: 600px;
-  margin: auto;
+    width: 600px;
+    margin: auto;
 }
 
 main {
-  color: #101;
-  margin-top: 20px;
-  text-align: justify;
+    color: #eee;
+    margin-top: 20px;
+    text-align: center;
 }
 
 main h1 {
-  font-family: var(--font1);
-  font-size: 2em;
-  font-weight: bolder;
-  color: #eee;
-  padding: 10px 50px;
+    font-family: var(--font1);
+    font-size: 2em;
+    font-weight: bolder;
+    color: #101;
+    padding: 10px 50px;
+    text-align: center;
 }
 
 main p {
-  font-size: 1.2em;
-  color: #eee;
-  margin: 30px 30px;
+    font-size: 1.2em;
+    color: #101;
+    margin: 30px 30px;
+    text-align: justify;
 }
 
 main p a {
-  font-weight: bold;
-  color: #eee;
-  text-decoration: none;
+    font-weight: bold;
+    color: #101;
+    text-decoration: none;
 }
 
 main p a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-/* CONFIGURAÇÕES DE IMAGENS */
+/* CONFIGURAÇÕES DO CONTEÚDO PROJETOS */
 main picture img{
-  width: 300px;
-  height: 200px;
+    width: 300px;
+    height: 200px;
 }
 
 main fieldset {
-  margin: 2em;
-  padding: 2em;
+    margin: 2em;
+    padding: 2em;
 }
 
 main legend {
+    font-family: var(--font1);
+    font-size: 2em;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/* CONFIGURAÇÕES DO CONTEÚDO CONTATO */
+main img#perfil {
+  height: 300px;
+  width: 300px;
+  margin: 30px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #101;
+}
+
+main button {
+  background-color: #101;
   font-family: var(--font1);
-  font-size: 2em;
-  font-weight: bolder;
-  text-decoration: underline;
+  font-size: 1.5em;
+  color: #eee;
+  margin-top: 3px;
+  padding: 7px;
+  width: 270px;
+  border-width: 0;
+  border-radius: 3px;
+  text-align: center;
+  box-shadow: 0 0 5px #eee;
+}
+
+main a button.facebook:hover {
+  background-color: var(--facebook);
+  transition: 300ms;
+  color: #101;
+  box-shadow: 0 0 10px var(--facebook);
+}
+
+main a button.instagram:hover {
+  background-color: var(--instagram);
+  transition: 300ms;
+  color: #101;
+  box-shadow: 0 0 10px var(--instagram);
+}
+
+main a button.messenger:hover {
+  background-color: var(--messenger);
+  transition: 300ms;
+  color: #101;
+  box-shadow: 0 0 10px var(--messenger);
+}
+
+main a button.whatsapp:hover {
+  background-color: var(--whatsapp);
+  transition: 300ms;
+  color: #101;
+  box-shadow: 0 0 10px var(--whatsapp);
+}
+
+main a button.discord:hover {
+  background-color: var(--discord);
+  transition: 300ms;
+  color: #101;
+  box-shadow: 0 0 10px var(--discord);
+}
+
+main a button.twitter:hover {
+  background-color: var(--twitter);
+  transition: 300ms;
+  color: #101;
+  box-shadow: 0 0 10px var(--twitter);
+}
+
+main a button.telegram:hover {
+  background-color: var(--telegram);
+  transition: 300ms;
+  color: #000;
+  box-shadow: 0 0 10px var(--telegram);
 }
 
 /* CONFIGURAÇÕES DO RODAPÉ */
 footer {
-  background-color: #eee;
-  font-family: var(--font1);
-  font-size: 0.95em;
-  color: #101;
-  text-align: center;
-  padding: 10px;
-  margin-top: 100px;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-bottom: -10px;
+    background-color: #101;
+    font-family: var(--font1);
+    font-size: 0.95em;
+    color: #eee;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
 }
