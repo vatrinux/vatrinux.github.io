@@ -5,23 +5,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meus Contatos</title>
-
-    <link rel="stylesheet" href="css/style.css">
+    <title>Juliano S. Vatre</title>
+    
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css" media="all">
+    <link rel="stylesheet" href="css/mobile.css" media="screen">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 
-<body>
+<body onresize="mobileScreen()">
     <header>
         <p>
             Juliano S. Vatre
         </p>
-        <nav>
-            <a href="index.html">início</a>
-            <a href="projects.html">projetos</a>
-            <a href="contact.html">contato</a>
-        </nav>
+        <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
+        <menu id="menu">
+            <ul>
+                <li><a href="index.html">início</a></li>
+                <li><a href="projects.html">projetos</a></li>
+                <li><a href="contact.html">contato</a></li>
+            </ul>
+        </menu>
     </header>
+
     <main>
         <div class="perfil">
             <img src="img/perfil.png" alt="Foto de perfil">
@@ -50,6 +56,24 @@
             </a><br>
         </div>
     </main>
+
+    <script>
+        function mobileScreen() {
+            if (window.innerWidth >= 600) {
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none'
+            } else {
+                menu.style.display = 'block'
+            }
+        }
+    </script>
 
     <footer>
         <p>Desenvolvido com ❤️ por Juliano Vatre</p>

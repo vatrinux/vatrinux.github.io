@@ -1,23 +1,11 @@
 @charset "UTF-8";
 
 /* FONTES DO GOOGLE*/
-@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
 
 /* CONFIGURAÇÕES DE ATALHOS */
 :root {
-    --cor0: #00acee;
-    --cor1: #2bc4ff;
-    --cor2: #008abe;
-    --font0: "Chivo Mono", cursiva;
-    --font1: "Titan One", cursiva;
-    --font2: "Luckiest Guy", cursiva;
-    --font3: "Bungee", cursiva;
-
-/* CONFIGURAÇÕES DA PÁGINA CONTATOS */
-    --color0: #dddada;
+    --font: "Titan One", cursiva;
     --facebook: #1877f2;
     --instagram: #e2306c;
     --messenger: #1877f2;
@@ -35,7 +23,7 @@
 
 /* CONFIGURAÇÕES DO CORPO */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #eee;
     padding: 10px;
 }
@@ -43,37 +31,67 @@ body {
 /* CONFIGURAÇÕES DO CABEÇALHO */
 header {
     background-color: #101;
-    font-family: var(--font1);
+    font-family: var(--font);
     font-size: 3em;
     color: #eee;
     text-align: center;
+
     margin: -10px;
     padding: 20px 100px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
-  
+
 /* CONFIGURAÇÕES DO MENU DE NAVEGAÇÃO */
-header nav {
+span#burguer {
+    display: none;
+    cursor: pointer;
+
+    background-color: #101;
+    color: #eee;
+    text-align: left;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+span#burguer:hover {
     background-color: #eee;
+    color: #101;
+}
+
+menu {
     font-size: 0.5em;
     text-align: center;
+
     width: 400px;
     margin: 20px auto;
     padding: 1.2px;
     border-radius: 3px;
 }
-  
-header nav a {
-    font-family: var(--font1);
+
+menu>ul {
+    list-style-type: none;
+}
+
+menu>ul>li {
+    display: inline-block;
+}
+
+menu>ul>li>a {
+    display: block;
+
+    background-color: #eee;
     color: #101;
+    border-radius: 3px;
+
     padding: 0px 10px;
+    text-align: center;
     text-decoration: none;
 }
-  
-header nav a:hover {
+
+menu>ul>li>a:hover {
     background-color: #101;
-    transition: 0.7s;
     color: #eee;
+    transition: 0.7s;
     border-radius: 3px;
 }
 
@@ -82,22 +100,18 @@ section {
     width: 600px;
     margin: auto;
 }
-
 main {
     color: #eee;
     margin-top: 20px;
     text-align: center;
 }
-
 main h1 {
-    font-family: var(--font1);
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: bolder;
     color: #101;
     padding: 10px 50px;
     text-align: center;
 }
-
 main p {
     font-size: 1.2em;
     color: #101;
@@ -105,34 +119,20 @@ main p {
     text-align: justify;
 }
 
-main p a {
-    font-weight: bold;
-    color: #101;
-    text-decoration: none;
-}
-
-main p a:hover {
-    text-decoration: underline;
-}
-
 /* CONFIGURAÇÕES DO CONTEÚDO PROJETOS */
 picture img{
     width: 300px;
     height: 200px;
 }
-
 fieldset {
     margin: 2em;
     padding: 2em;
 }
-
 legend {
-    font-family: var(--font1);
     font-size: 2em;
     font-weight: bolder;
     text-decoration: underline;
 }
-
 /* CONFIGURAÇÕES DO CONTEÚDO CONTATO */
 div.perfil img {
   height: 300px;
@@ -141,10 +141,8 @@ div.perfil img {
   border-radius: 50%;
   box-shadow: 0 0 10px #101;
 }
-
 div button {
   background-color: #101;
-  font-family: var(--font1);
   font-size: 1.5em;
   color: #eee;
   margin-top: 3px;
@@ -155,60 +153,53 @@ div button {
   text-align: center;
   box-shadow: 0 0 5px #eee;
 }
-
 button.facebook:hover {
   background-color: var(--facebook);
   transition: 300ms;
   color: #101;
   box-shadow: 0 0 10px var(--facebook);
 }
-
 button.instagram:hover {
   background-color: var(--instagram);
   transition: 300ms;
   color: #101;
   box-shadow: 0 0 10px var(--instagram);
 }
-
 button.messenger:hover {
   background-color: var(--messenger);
   transition: 300ms;
   color: #101;
   box-shadow: 0 0 10px var(--messenger);
 }
-
 button.whatsapp:hover {
   background-color: var(--whatsapp);
   transition: 300ms;
   color: #101;
   box-shadow: 0 0 10px var(--whatsapp);
 }
-
 button.discord:hover {
   background-color: var(--discord);
   transition: 300ms;
   color: #101;
   box-shadow: 0 0 10px var(--discord);
 }
-
 button.twitter:hover {
   background-color: var(--twitter);
   transition: 300ms;
   color: #101;
   box-shadow: 0 0 10px var(--twitter);
 }
-
 button.telegram:hover {
   background-color: var(--telegram);
   transition: 300ms;
-  color: #000;
+  color: #101;
   box-shadow: 0 0 10px var(--telegram);
 }
 
 /* CONFIGURAÇÕES DO RODAPÉ */
 footer {
     background-color: #101;
-    font-family: var(--font1);
+    font-family: var(--font);
     font-size: 0.95em;
     color: #eee;
     text-align: center;

@@ -1,145 +1,32 @@
 @charset "UTF-8";
 
-/* FONTES DO GOOGLE*/
-@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+@media screen and (max-width: 600px) {
 
-/* CONFIGURAÇÕES DE ATALHOS */
-:root {
-  --cor0: #00acee;
-  --cor1: #2bc4ff;
-  --cor2: #008abe;
-  --font0: "Chivo Mono", cursiva;
-  --font1: "Titan One", cursiva;
-  --font2: "Luckiest Guy", cursiva;
-  --font3: "Bungee", cursiva;
-}
+    /* CONFIGURAÇÕES DE ATALHOS */
+    :root {
+        --font: "Titan One", cursiva;
+        --facebook: #1877f2;
+        --instagram: #e2306c;
+        --messenger: #1877f2;
+        --whatsapp: #25d366;
+        --discord: #5865f2;
+        --twitter: #1d9bf0;
+        --telegram: #29a9ea;
+    }
 
-/* CONFIGURAÇÕES PARA DISPOSITIVOS MOBILE */
-* {
-  width: 386px;
-  margin: 0px;
-  padding: 0px;
-}
+    span#burguer {
+        display: block;
+    }
 
-/* CONFIGURAÇÕES DO CORPO */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #eee;
-  padding: 10px;
-}
+    menu {
+        display: none;
+    }
 
-/* CONFIGURAÇÕES DO CABEÇALHO */
-header {
-  background-color: #123;
-  font-family: var(--font1);
-  font-size: 1.4em;
-  color: #eee;
-  text-align: center;
-  margin: -10px;
-  padding: 20px 100px;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
-}
+    menu>ul>li {
+        display: inline-block;
+    }
 
-/* CONFIGURAÇÕES DO MENU DE NAVEGAÇÃO */
-header nav {
-  background-color: #eee;
-  text-align: center;
-  width: 300px;
-  margin: 20px auto;
-  padding: 1.2px;
-  border-radius: 3px;
-}
-
-header nav a {
-  font-family: var(--font1);
-  font-size: 1em;
-  color: #123;
-  padding: 0px 10px;
-  text-decoration: none;
-}
-
-header nav a:hover {
-  background-color: #123;
-  transition: 0.7s;
-  color: #eee;
-  border-radius: 3px;
-}
-
-/* CONFIGURAÇÕES DO CONTEÚDO */
-section {
-  width: 300px;
-  margin: auto;
-}
-
-main {
-  color: #123;
-  margin-top: 20px;
-  text-align: justify;
-}
-
-main h1 {
-  font-family: var(--font1);
-  font-size: 2em;
-  font-weight: bolder;
-  color: #123;
-  padding: 10px 50px;
-}
-
-main p {
-  font-size: 1.2em;
-  margin: 30px 30px;
-}
-
-main p a {
-  font-weight: bold;
-  color: #123;
-  text-decoration: none;
-}
-
-main p a:hover {
-  text-decoration: underline;
-}
-
-main picture img{
-  width: 300px;
-  height: 200px;
-}
-
-main fieldset {
-  margin: 2em;
-  padding: 2em;
-}
-
-main legend {
-  font-family: var(--font1);
-  font-size: 2em;
-  font-weight: bolder;
-  text-decoration: underline;
-}
-
-main form label, input {
-  font-size: 1.2em;
-  margin: 5px 30px;
-}
-
-main form div.buttom input {
-  margin: 15px 0px 10px 50px;
-  padding: 5px 30px;
-}
-
-/* CONFIGURAÇÕES DO RODAPÉ */
-footer {
-  background-color: #123;
-  font-family: var(--font1);
-  font-size: 0.95em;
-  color: #eee;
-  text-align: center;
-  padding: 10px;
-  margin-top: 100px;
-  margin-left: -10px;
-  margin-right: -10px;
-  margin-bottom: -10px;
+    main {
+        width: 300px;
+    }
 }
