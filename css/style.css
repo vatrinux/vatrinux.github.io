@@ -35,7 +35,6 @@ header {
     font-size: 3em;
     color: #eee;
     text-align: center;
-
     margin: -10px;
     padding: 20px 100px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
@@ -45,25 +44,23 @@ header {
 span#burguer {
     display: none;
     cursor: pointer;
-
     background-color: #101;
     color: #eee;
-    text-align: left;
+    text-align: center;
     padding: 10px;
     border-radius: 3px;
 }
 
 span#burguer:hover {
-    background-color: #eee;
-    color: #101;
+    background-color: #101;
+    color: #eee;
 }
 
 menu {
+    width: 300px;
     font-size: 0.5em;
     text-align: center;
-
-    width: 400px;
-    margin: 20px auto;
+    margin: auto;
     padding: 1.2px;
     border-radius: 3px;
 }
@@ -77,20 +74,19 @@ menu>ul>li {
 }
 
 menu>ul>li>a {
-    display: block;
-
-    background-color: #eee;
-    color: #101;
+    width: 300px;
+    color: #eee;
     border-radius: 3px;
-
-    padding: 0px 10px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
 }
 
 menu>ul>li>a:hover {
-    background-color: #101;
-    color: #eee;
+    width: 300px;
+    background-color: #eee;
+    color: #101;
+    padding: 10px 10px;
     transition: 0.7s;
     border-radius: 3px;
 }
@@ -100,11 +96,13 @@ section {
     width: 600px;
     margin: auto;
 }
+
 main {
     color: #eee;
     margin-top: 20px;
     text-align: center;
 }
+
 main h1 {
     font-size: 2.2em;
     font-weight: bolder;
@@ -112,6 +110,7 @@ main h1 {
     padding: 10px 50px;
     text-align: center;
 }
+
 main p {
     font-size: 1.2em;
     color: #101;
@@ -124,76 +123,87 @@ picture img{
     width: 300px;
     height: 200px;
 }
+
 fieldset {
     margin: 2em;
     padding: 2em;
 }
+
 legend {
     font-size: 2em;
     font-weight: bolder;
     text-decoration: underline;
 }
+
 /* CONFIGURAÇÕES DO CONTEÚDO CONTATO */
 div.perfil img {
-  height: 300px;
-  width: 300px;
-  margin: 30px;
-  border-radius: 50%;
-  box-shadow: 0 0 10px #101;
+    height: 300px;
+    width: 300px;
+    margin: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #101;
 }
+
 div button {
-  background-color: #101;
-  font-size: 1.5em;
-  color: #eee;
-  margin-top: 3px;
-  padding: 7px;
-  width: 270px;
-  border-width: 0;
-  border-radius: 3px;
-  text-align: center;
-  box-shadow: 0 0 5px #eee;
+    background-color: #101;
+    font-size: 1.5em;
+    color: #eee;
+    margin-top: 3px;
+    padding: 7px;
+    width: 270px;
+    border-width: 0;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: 0 0 5px #eee;
 }
+
 button.facebook:hover {
-  background-color: var(--facebook);
-  transition: 300ms;
-  color: #101;
-  box-shadow: 0 0 10px var(--facebook);
+    background-color: var(--facebook);
+    transition: 300ms;
+    color: #101;
+    box-shadow: 0 0 10px var(--facebook);
 }
+
 button.instagram:hover {
-  background-color: var(--instagram);
-  transition: 300ms;
-  color: #101;
-  box-shadow: 0 0 10px var(--instagram);
+    background-color: var(--instagram);
+    transition: 300ms;
+    color: #101;
+    box-shadow: 0 0 10px var(--instagram);
 }
+
 button.messenger:hover {
-  background-color: var(--messenger);
-  transition: 300ms;
-  color: #101;
-  box-shadow: 0 0 10px var(--messenger);
+    background-color: var(--messenger);
+    transition: 300ms;
+    color: #101;
+    box-shadow: 0 0 10px var(--messenger);
 }
+
 button.whatsapp:hover {
-  background-color: var(--whatsapp);
-  transition: 300ms;
-  color: #101;
-  box-shadow: 0 0 10px var(--whatsapp);
+    background-color: var(--whatsapp);
+    transition: 300ms;
+    color: #101;
+    box-shadow: 0 0 10px var(--whatsapp);
 }
+
 button.discord:hover {
-  background-color: var(--discord);
-  transition: 300ms;
-  color: #101;
-  box-shadow: 0 0 10px var(--discord);
+    background-color: var(--discord);
+    transition: 300ms;
+    color: #101;
+    box-shadow: 0 0 10px var(--discord);
 }
+
 button.twitter:hover {
-  background-color: var(--twitter);
-  transition: 300ms;
-  color: #101;
-  box-shadow: 0 0 10px var(--twitter);
+    background-color: var(--twitter);
+    transition: 300ms;
+    color: #101;
+    box-shadow: 0 0 10px var(--twitter);
 }
+
 button.telegram:hover {
-  background-color: var(--telegram);
-  transition: 300ms;
-  color: #101;
-  box-shadow: 0 0 10px var(--telegram);
+    background-color: var(--telegram);
+    transition: 300ms;
+    color: #101;
+    box-shadow: 0 0 10px var(--telegram);
 }
 
 /* CONFIGURAÇÕES DO RODAPÉ */
