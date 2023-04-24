@@ -15,14 +15,18 @@
 
 <body onresize="mobileScreen()">
     <header>
+        <h1>Juliano S. Vatre</h1>
+
+        <!-- ### MENU DE NAVEGAÇÃO
         <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
-        <menu id="menu">
+        <div class="menu">
             <ul>
                 <li><a href="#home">início</a></li>
                 <li><a href="#projects">projetos</a></li>
-                <li><a href="#contacts">contato</a></li>
             </ul>
-        </menu>
+        </div>
+        -->
+
     </header>
 
     <main>
@@ -31,7 +35,13 @@
                 <img src="img/perfil.png" alt="Foto de perfil">
             </div>
 
-            <h1 id="home">Juliano S. Vatre</h1>
+            <div class="social">
+                <a href="mailto:vatrinux@gmail.com" target="_blank"><img    src="svg/email.svg" alt="E-mail"></img></a>
+                <a href="https://github.com/vatrinux" target="_blank"><img  src="svg/github.svg" alt="GitHub"></img></a>
+                <a href="https://instagram.com/juliano.vatre"   target="_blank"><img src="svg/instagram.svg" alt="Instagram"></   img></a>
+                <a href="https://wa.me/5553984350812" target="_blank"><img  src="svg/whatsapp.svg" alt="WhatsApp"></img></a>
+            </div>
+
             <p>
                 Bem-vindo ao meu site de Desenvolvimento Web! Sou um desenvolvedor experiente com habilidades em várias tecnologias e linguagens de programação, incluindo HTML, CSS, JavaScript, TypeScript, PHP e muito mais.
             </p>
@@ -46,29 +56,13 @@
             </p>
         </article>
 
-        <h1 id="projects">Meus Projetos</h1>
+        <h2>Meus Projetos</h2>
         <picture>
 			<img src="img/img1.jpg" alt="Projeto 1" id="projeto1">
 			<img src="img/img2.jpg" alt="Projeto 2" id="projeto2">
 			<img src="img/img3.jpg" alt="Projeto 3" id="projeto3">
 			<img src="img/img4.jpg" alt="Projeto 4" id="projeto4">
 		</picture>
-
-        <h1 id="contacts">Contato</h1>
-        <div class="button">
-            <a href="https://instagram.com/juliano.vatre" target="_blank">
-                <button class="instagram">Instagram</button>
-            </a><br>
-            <a href="https://wa.me/5553984350812" target="_blank">
-                <button class="whatsapp">WhatsApp</button>
-            </a><br>
-            <a href="https://github.com/vatrinux" target="_blank">
-                <button class="github">GitHub</button>
-            </a><br>
-            <a href="https://t.me/vatrinux" target="_blank">
-                <button class="telegram">Telegram</button>
-            </a><br>
-        </div>
     </main>
 
     <script>

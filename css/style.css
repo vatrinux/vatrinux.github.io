@@ -22,25 +22,21 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: #eee;
-    width: 100vw;
-    height: 100vh;
 }
 
 /* CONFIGURAÇÕES DO CABEÇALHO */
 header {
     background-color: #101;
     font-family: var(--font);
-    font-size: 3em;
+    font-size: 1.3em;
     color: #eee;
     text-align: center;
-    position: fixed;
-    width: 100%;
-    margin-top: -10px;
+    margin: 0px -10px;
     padding: 10px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-/* CONFIGURAÇÕES DO MENU DE NAVEGAÇÃO */
+/* CONFIGURAÇÕES DO MENU DE NAVEGAÇÃO
 span#burguer {
     display: none;
     cursor: pointer;
@@ -56,24 +52,24 @@ span#burguer:hover {
     color: #eee;
 }
 
-menu {
+div {
     width: 600px;
     font-size: 0.5em;
     text-transform: uppercase;
-    text-align: center;
+    text-align: left;
     margin: auto;
     padding: 1.2px;
 }
 
-menu>ul {
+.menu>ul {
     list-style-type: none;
 }
 
-menu>ul>li {
+.menu>ul>li {
     display: inline-block;
 }
 
-menu>ul>li>a {
+.menu>ul>li>a {
     width: 300px;
     color: #eee;
     border-radius: 3px;
@@ -82,14 +78,14 @@ menu>ul>li>a {
     text-decoration: none;
 }
 
-menu>ul>li>a:hover {
+.menu>ul>li>a:hover {
     width: 300px;
     background-color: #eee;
     color: #101;
     padding: 1px 10px;
     transition: 0.7s;
     border-radius: 3px;
-}
+} */
 
 /* CONFIGURAÇÕES DO CONTEÚDO INICIAL */
 section {
@@ -103,6 +99,21 @@ main {
     text-align: center;
 }
 
+.perfil img {
+    height: 250px;
+    width: 250px;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #101;
+}
+
+.social>a>img {
+    margin: 20px 1px;
+    width: 50px;
+    background-color: #101;
+    border-radius: 7px;
+}
+
 main h1 {
     font-size: 2.2em;
     font-weight: bolder;
@@ -112,16 +123,27 @@ main h1 {
     text-align: center;
 }
 
+main h2 {
+    font-family: var(--font);
+    font-size: 2.2em;
+    color: #101;
+    margin-top: 10px;
+    padding: 10px 50px;
+    text-align: center;
+}
+
 main p {
+    font-family: var(--font);
     font-size: 1.2em;
     color: #101;
-    margin: 20px 30px;
-    text-indent: 2em;
+    margin: 10px 50px;
+    text-indent: 1.3em;
     text-align: justify;
 }
 
 /* CONFIGURAÇÕES DO CONTEÚDO PROJETOS */
 picture img{
+    margin: 10px;
     width: 300px;
     height: 200px;
 }
@@ -138,51 +160,7 @@ legend {
 }
 
 /* CONFIGURAÇÕES DO CONTEÚDO CONTATO */
-div.perfil img {
-    height: 250px;
-    width: 250px;
-    margin-top: 100px;
-    border-radius: 50%;
-    box-shadow: 0 0 10px #101;
-}
 
-div button {
-    background-color: #101;
-    font-size: 1.5em;
-    color: #eee;
-    margin-top: 3px;
-    padding: 7px;
-    width: 270px;
-    border-width: 0;
-    border-radius: 3px;
-    text-align: center;
-    box-shadow: 0 0 5px #eee;
-    cursor: pointer;
-}
-
-button.instagram:hover {
-    background-color: var(--instagram);
-    transition: 300ms;
-    box-shadow: 0 0 10px var(--instagram);
-}
-
-button.whatsapp:hover {
-    background-color: var(--whatsapp);
-    transition: 300ms;
-    box-shadow: 0 0 10px var(--whatsapp);
-}
-
-button.github:hover {
-    background-color: var(--github);
-    transition: 300ms;
-    box-shadow: 0 0 10px var(--twitter);
-}
-
-button.telegram:hover {
-    background-color: var(--telegram);
-    transition: 300ms;
-    box-shadow: 0 0 10px var(--telegram);
-}
 
 /* CONFIGURAÇÕES DO RODAPÉ */
 footer {

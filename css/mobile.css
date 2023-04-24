@@ -14,6 +14,7 @@
         --telegram: #29a9ea;
     }
 
+    /*
     span#burguer {
         display: block;
     }
@@ -26,6 +27,7 @@
     menu>ul>li {
         display: block;
     }
+    */
 
     section {
         width: 300px;
