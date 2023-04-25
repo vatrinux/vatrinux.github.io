@@ -1,14 +1,18 @@
 @charset "UTF-8";
-
-/* FONTES DO GOOGLE*/
-@import url("https://fonts.googleapis.com/css2?family=Titan+One&display=swap");
+@font-face {
+    font-family: 'Changa One', cursive;
+    src: url(../fonts/Changa_One/ChangaOne-Regular.ttf);
+}
 
 /* CONFIGURAÇÕES DE ATALHOS */
 :root {
-    --font: "Titan One", cursiva;
+    --font: 'Changa One', cursiva;
+    --facebook: #1877f2;
     --instagram: #e2306c;
+    --messenger: #1877f2;
     --whatsapp: #25d366;
-    --github: #0d1117;
+    --discord: #5865f2;
+    --twitter: #1d9bf0;
     --telegram: #29a9ea;
 }
 
@@ -20,76 +24,23 @@
 
 /* CONFIGURAÇÕES DO CORPO */
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(20, 40, 60);
 }
 
 /* CONFIGURAÇÕES DO CABEÇALHO */
 header {
-    background-color: #101;
-    font-family: var(--font);
-    font-size: 1.3em;
+    background-color: rgb(15, 15, 30);
+    font-size: 2.3em;
     color: #eee;
     text-align: center;
-    margin: 0px -10px;
     padding: 10px;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-/* CONFIGURAÇÕES DO MENU DE NAVEGAÇÃO
-span#burguer {
-    display: none;
-    cursor: pointer;
-    background-color: #101;
-    color: #eee;
-    text-align: center;
-    padding: 10px;
-    border-radius: 3px;
-}
-
-span#burguer:hover {
-    background-color: #101;
-    color: #eee;
-}
-
-div {
-    width: 600px;
-    font-size: 0.5em;
-    text-transform: uppercase;
-    text-align: left;
-    margin: auto;
-    padding: 1.2px;
-}
-
-.menu>ul {
-    list-style-type: none;
-}
-
-.menu>ul>li {
-    display: inline-block;
-}
-
-.menu>ul>li>a {
-    width: 300px;
-    color: #eee;
-    border-radius: 3px;
-    padding: 1px 10px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.menu>ul>li>a:hover {
-    width: 300px;
-    background-color: #eee;
-    color: #101;
-    padding: 1px 10px;
-    transition: 0.7s;
-    border-radius: 3px;
-} */
-
 /* CONFIGURAÇÕES DO CONTEÚDO INICIAL */
 section {
-    width: 800px;
+    width: 600px;
     margin: auto;
 }
 
@@ -110,42 +61,30 @@ main {
 .social>a>img {
     margin: 20px 1px;
     width: 50px;
-    background-color: #101;
     border-radius: 7px;
 }
 
-main h1 {
-    font-size: 2.2em;
-    font-weight: bolder;
-    color: #101;
-    margin-top: 10px;
-    padding: 10px 50px;
-    text-align: center;
-}
-
 main h2 {
-    font-family: var(--font);
     font-size: 2.2em;
-    color: #101;
+    color: #eee;
     margin-top: 10px;
     padding: 10px 50px;
     text-align: center;
 }
 
 main p {
-    font-family: var(--font);
     font-size: 1.2em;
-    color: #101;
+    color: #eee;
     margin: 10px 50px;
     text-indent: 1.3em;
-    text-align: justify;
+    text-align: center;
 }
 
 /* CONFIGURAÇÕES DO CONTEÚDO PROJETOS */
 picture img{
     margin: 10px;
-    width: 300px;
-    height: 200px;
+    width: 230px;
+    height: 120px;
 }
 
 fieldset {
@@ -159,13 +98,9 @@ legend {
     text-decoration: underline;
 }
 
-/* CONFIGURAÇÕES DO CONTEÚDO CONTATO */
-
-
 /* CONFIGURAÇÕES DO RODAPÉ */
 footer {
-    background-color: #101;
-    font-family: var(--font);
+    background-color: rgb(15, 15, 30);
     font-size: 0.95em;
     color: #eee;
     text-align: center;

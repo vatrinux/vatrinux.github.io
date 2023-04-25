@@ -4,7 +4,7 @@
 
     /* CONFIGURAÇÕES DE ATALHOS */
     :root {
-        --font: "Titan One", cursiva;
+        --font: "Changa One", cursiva;
         --facebook: #1877f2;
         --instagram: #e2306c;
         --messenger: #1877f2;
@@ -14,22 +14,7 @@
         --telegram: #29a9ea;
     }
 
-    /*
-    span#burguer {
-        display: block;
-    }
-
-    menu {
-        width: 300px;
-        display: none;
-    }
-
-    menu>ul>li {
-        display: block;
-    }
-    */
-
     section {
-        width: 300px;
+        width: 400px;
     }
 }
