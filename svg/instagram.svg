@@ -2,12 +2,12 @@
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
 
 <svg
-   width="500"
-   height="500"
-   viewBox="0 0 15 15"
+   width="800px"
+   height="800px"
+   viewBox="0 0 24 24"
    fill="none"
    version="1.1"
-   id="svg1712"
+   id="svg4"
    sodipodi:docname="instagram.svg"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -15,9 +15,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs1716" />
+     id="defs8" />
   <sodipodi:namedview
-     id="namedview1714"
+     id="namedview6"
      pagecolor="#505050"
      bordercolor="#eeeeee"
      borderopacity="1"
@@ -26,13 +26,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      showgrid="false"
-     inkscape:current-layer="svg1712" />
+     inkscape:current-layer="svg4" />
   <path
-     d="m 11.374999,3.4999991 h 0.0083 M 4.166667,14.166668 h 6.666667 c 1.840916,0 3.333332,-1.492417 3.333332,-3.333334 V 4.1666659 c 0,-1.8409504 -1.492416,-3.3333341 -3.333332,-3.3333341 H 4.166667 c -1.84095,0 -3.3333332,1.4923837 -3.3333332,3.3333341 v 6.6666681 c 0,1.840917 1.4923832,3.333334 3.3333332,3.333334 z M 10.625,7.5000002 c 0,1.725916 -1.3990838,3.1249998 -3.1249998,3.1249998 -1.7258916,0 -3.1249999,-1.3990838 -3.1249999,-3.1249998 0,-1.7258923 1.3991083,-3.125001 3.1249999,-3.125001 1.725916,0 3.1249998,1.3991087 3.1249998,3.125001 z"
+     d="m 18.2,5.5999998 h 0.01333 M 6.6666665,22.666667 H 17.333333 c 2.945467,0 5.333334,-2.387867 5.333334,-5.333334 V 6.6666665 c 0,-2.94552 -2.387867,-5.3333334 -5.333334,-5.3333334 H 6.6666665 c -2.94552,0 -5.3333334,2.3878134 -5.3333334,5.3333334 V 17.333333 c 0,2.945467 2.3878134,5.333334 5.3333334,5.333334 z M 17,12 c 0,2.761467 -2.238533,5 -5,5 -2.7614272,0 -5.0000002,-2.238533 -5.0000002,-5 0,-2.7614272 2.238573,-5.0000002 5.0000002,-5.0000002 2.761467,0 5,2.238573 5,5.0000002 z"
      stroke="#000000"
-     stroke-width="1.66666"
+     stroke-width="2.66667"
      stroke-linecap="round"
      stroke-linejoin="round"
-     id="path1710"
-     style="stroke:#eeeeee;stroke-opacity:1" />
+     id="path2"
+     style="stroke:#ffd100;stroke-opacity:1" />
 </svg>
