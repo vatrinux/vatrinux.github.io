@@ -112,7 +112,7 @@ main p {
 footer {
     background-color: var(--cor1);
     font-family: var(--font);
-    font-size: 0.95em;
+    font-size: 1em;
     color: var(--cor3);
     text-align: center;
     padding: 10px;
@@ -121,5 +121,5 @@ footer {
 }
 
 .heart, .copy {
-    width: 12px;
+    width: 0.75rem;
 }
