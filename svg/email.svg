@@ -8,7 +8,7 @@
    fill="none"
    version="1.1"
    id="svg6"
-   sodipodi:docname="email-svgrepo-com.svg"
+   sodipodi:docname="email.svg"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -29,7 +29,7 @@
      inkscape:current-layer="svg6" />
   <g
      id="g849"
-     style="stroke:#ffd100;stroke-opacity:1">
+     style="stroke:#ffee32;stroke-opacity:1;fill:none;fill-opacity:1">
     <path
        d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7"
        stroke="#000000"
@@ -37,7 +37,7 @@
        stroke-linecap="round"
        stroke-linejoin="round"
        id="path2"
-       style="stroke:#ffd100;stroke-opacity:1" />
+       style="stroke:#ffee32;stroke-opacity:1;fill:none;fill-opacity:1" />
     <rect
        x="1.1999998"
        y="3.6000004"
@@ -48,6 +48,6 @@
        stroke-width="2.4"
        stroke-linecap="round"
        id="rect4"
-       style="fill:none;fill-opacity:1;stroke:#ffd100;stroke-opacity:1" />
+       style="fill:none;fill-opacity:1;stroke:#ffee32;stroke-opacity:1" />
   </g>
 </svg>
