@@ -29,7 +29,7 @@ header {
     background-color: var(--cor1);
     font-family: var(--font);
     font-size: 3em;
-    font-weight: bolder;
+    font-weight: bold;
     color: var(--cor3);
     padding: 10px;
     text-align: center;
@@ -64,6 +64,7 @@ main {
 
 main h1 {
     font-size: 2.3em;
+    font-weight: bold;
     color: var(--cor3);
     margin-top: 70px;
     padding: 10px 50px;
@@ -72,7 +73,7 @@ main h1 {
 
 main p {
     font-size: 1.3em;
-    color: var(--cor3);
+    color: var(--cor0);
     margin: 10px 50px;
     text-indent: 1.3em;
     text-align: center;
@@ -81,7 +82,7 @@ main p {
 /* CONFIGURAÇÕES DO CONTEÚDO PROJETOS */
 #background {
     margin: 10px;
-    width: 230px;
+    width: 200px;
     height: 120px;
     border-radius: 10px;
     filter: blur(0px);
@@ -103,7 +104,7 @@ main p {
     left: 25px;
     font-size: 1.5em;
     font-weight: bolder;
-    color: var(--cor3);
+    color: var(--cor2);
     text-shadow: 1px 1px 3px var(--cor1);
     filter: opacity(95%);
 }
@@ -118,6 +119,15 @@ footer {
     padding: 10px;
     margin-top: 100px;
     box-shadow: 2px 0px 5px var(--cor1);
+}
+
+footer > p > a {
+    color: var(--cor0);
+    text-decoration: none;
+}
+
+footer > p > a:hover {
+    text-decoration: underline;
 }
 
 .heart, .copy {
