@@ -9,7 +9,7 @@
     --cor0: #D6D6D6;
     --cor1: #202020;
     --cor2: #333533;
-    --cor3: #FFEE32;
+    --cor3: #E36630;
 }
 
 /* CONFIGURAÇÕES GERAIS */
@@ -52,12 +52,13 @@ main {
     height: 200px;
     width: 200px;
     margin-top: 20px;
+    margin-bottom: 20px;
     border-radius: 50%;
     box-shadow: 0 0 10px var(--cor1);
 }
 
 .social>a>img {
-    margin: 20px 10px;
+    margin: 0px 10px;
     width: 50px;
     border-radius: 7px;
 }
@@ -82,7 +83,7 @@ main p {
 /* CONFIGURAÇÕES DO CONTEÚDO PROJETOS */
 #background {
     margin: 10px;
-    width: 200px;
+    width: 180px;
     height: 120px;
     border-radius: 10px;
     filter: blur(0px);
@@ -104,8 +105,7 @@ main p {
     left: 15px;
     font-size: 1.5em;
     font-weight: bolder;
-    color: var(--cor2);
-    text-shadow: 1px 1px 3px var(--cor1);
+    color: var(--cor1);
     filter: opacity(95%);
 }
 
