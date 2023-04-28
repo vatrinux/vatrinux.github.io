@@ -101,7 +101,7 @@ main p {
 .projects figcaption {
     position: absolute;
     top: 100px;
-    left: 25px;
+    left: 15px;
     font-size: 1.5em;
     font-weight: bolder;
     color: var(--cor2);
