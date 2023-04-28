@@ -9,7 +9,7 @@
     --cor0: #D6D6D6;
     --cor1: #202020;
     --cor2: #333533;
-    --cor3: #E36630;
+    --cor3: #FD9C4C;
 }
 
 /* CONFIGURAÇÕES GERAIS */
@@ -83,7 +83,7 @@ main p {
 /* CONFIGURAÇÕES DO CONTEÚDO PROJETOS */
 #background {
     margin: 10px;
-    width: 180px;
+    width: 200px;
     height: 120px;
     border-radius: 10px;
     filter: blur(0px);
