@@ -9,7 +9,6 @@
     --cor0: #D6D6D6;
     --cor1: #202020;
     --cor2: #333533;
-    --cor3: #FD9C4C;
 }
 
 /* CONFIGURAÇÕES GERAIS */
@@ -30,8 +29,8 @@ header {
     font-family: var(--font);
     font-size: 3em;
     font-weight: bold;
-    color: var(--cor3);
-    padding: 10px;
+    color: var(--cor0);
+    padding: 20px;
     text-align: center;
     box-shadow: 0px 2px 5px var(--cor1);
 }
@@ -114,9 +113,9 @@ footer {
     background-color: var(--cor1);
     font-family: var(--font);
     font-size: 1em;
-    color: var(--cor3);
+    color: var(--cor0);
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     margin-top: 100px;
     box-shadow: 2px 0px 5px var(--cor1);
 }

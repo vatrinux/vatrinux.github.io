@@ -7,17 +7,17 @@
    viewBox="0 0 24 24"
    fill="none"
    version="1.1"
-   id="svg4"
-   sodipodi:docname="instagram.svg"
+   id="svg6"
+   sodipodi:docname="email.svg"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg">
   <defs
-     id="defs8" />
+     id="defs10" />
   <sodipodi:namedview
-     id="namedview6"
+     id="namedview8"
      pagecolor="#505050"
      bordercolor="#eeeeee"
      borderopacity="1"
@@ -26,7 +26,7 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#505050"
      showgrid="false"
-     inkscape:current-layer="svg4"
+     inkscape:current-layer="svg6"
      inkscape:zoom="0.64625"
      inkscape:cx="97.485493"
      inkscape:cy="400.77369"
@@ -35,12 +35,27 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1" />
-  <path
-     d="m 18.2,5.5999998 h 0.01333 M 6.6666665,22.666667 H 17.333333 c 2.945467,0 5.333334,-2.387867 5.333334,-5.333334 V 6.6666665 c 0,-2.94552 -2.387867,-5.3333334 -5.333334,-5.3333334 H 6.6666665 c -2.94552,0 -5.3333334,2.3878134 -5.3333334,5.3333334 V 17.333333 c 0,2.945467 2.3878134,5.333334 5.3333334,5.333334 z M 17,12 c 0,2.761467 -2.238533,5 -5,5 -2.7614272,0 -5.0000002,-2.238533 -5.0000002,-5 0,-2.7614272 2.238573,-5.0000002 5.0000002,-5.0000002 2.761467,0 5,2.238573 5,5.0000002 z"
-     stroke="#000000"
-     stroke-width="2.66667"
-     stroke-linecap="round"
-     stroke-linejoin="round"
-     id="path2"
-     style="stroke:#f5f5f5;stroke-opacity:1;fill:none;fill-opacity:1" />
+  <g
+     id="g849"
+     style="stroke:#f5f5f5;stroke-opacity:1;fill:none;fill-opacity:1">
+    <path
+       d="M4 7.00005L10.2 11.65C11.2667 12.45 12.7333 12.45 13.8 11.65L20 7"
+       stroke="#000000"
+       stroke-width="2"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path2"
+       style="stroke:#f5f5f5;stroke-opacity:1;fill:none;fill-opacity:1" />
+    <rect
+       x="1.1999998"
+       y="3.6000004"
+       width="21.6"
+       height="16.799999"
+       rx="2.4000001"
+       stroke="#000000"
+       stroke-width="2.4"
+       stroke-linecap="round"
+       id="rect4"
+       style="fill:none;fill-opacity:1;stroke:#f5f5f5;stroke-opacity:1" />
+  </g>
 </svg>
