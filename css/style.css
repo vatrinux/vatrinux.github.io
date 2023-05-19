@@ -79,6 +79,14 @@ main p {
     text-align: center;
 }
 
+/* CONGIFURAÇÕES DAS SKILLS */
+.skills>img {
+    margin: 0px 10px;
+    width: 50px;
+    border-radius: 7px;
+}
+
+
 /* CONFIGURAÇÕES DO CONTEÚDO PROJETOS */
 #background {
     margin: 10px;
