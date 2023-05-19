@@ -85,11 +85,11 @@ main p {
     width: 200px;
     height: 120px;
     border-radius: 10px;
-    filter: blur(0px);
+    filter: blur(2px);
 }
 
 #background:hover {
-    filter: blur(2px);
+    filter: blur(0px);
     transition: 0.2s;
 }
 
