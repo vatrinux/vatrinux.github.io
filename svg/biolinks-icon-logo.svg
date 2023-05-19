@@ -47,35 +47,43 @@
        x="-2.5431316e-06"
        y="-2.5431316e-06"
        ry="60.515125" />
-    <text
-       xml:space="preserve"
-       style="font-size:48.3675px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.64583;stroke-dasharray:none;stroke-opacity:1"
-       x="21.686747"
-       y="63.855522"
-       id="text344"
-       transform="scale(0.67659791,1.4779827)"><tspan
-         sodipodi:role="line"
-         id="tspan342"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:48.3675px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.64583;stroke-dasharray:none;stroke-opacity:1"
-         x="21.686747"
-         y="63.855522">BioLinks</tspan></text>
-    <circle
-       style="fill:#000000;stroke-width:0.462419"
-       id="path444"
-       cx="159.81047"
-       cy="158.95352"
-       r="33.072918" />
-    <circle
-       style="fill:#4d4d4d;stroke-width:0.331176"
-       id="path500"
-       cx="138.64378"
-       cy="137.78683"
-       r="19.84375" />
-    <circle
-       style="fill:#ffffff;stroke-width:0.331176;fill-opacity:1"
-       id="circle1056"
-       cx="149.22713"
-       cy="148.37018"
-       r="19.84375" />
+    <g
+       id="g310"
+       transform="translate(0,-2.6458288)">
+      <text
+         xml:space="preserve"
+         style="font-size:44.4616px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.43217;stroke-dasharray:none;stroke-opacity:1"
+         x="58.329803"
+         y="59.346333"
+         id="text344"
+         transform="scale(0.61945894,1.614312)"><tspan
+           sodipodi:role="line"
+           id="tspan342"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:44.4616px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:2.43217;stroke-dasharray:none;stroke-opacity:1"
+           x="58.329803"
+           y="59.346333">BioLinks</tspan></text>
+      <g
+         id="g296"
+         transform="translate(-18.258389,-17.40144)">
+        <circle
+           style="fill:#000000;stroke-width:0.462419"
+           id="path444"
+           cx="159.81047"
+           cy="158.95352"
+           r="33.072918" />
+        <circle
+           style="fill:#4d4d4d;stroke-width:0.331176"
+           id="path500"
+           cx="138.64378"
+           cy="137.78683"
+           r="19.84375" />
+        <circle
+           style="fill:#ffffff;fill-opacity:1;stroke-width:0.331176"
+           id="circle1056"
+           cx="149.22713"
+           cy="148.37018"
+           r="19.84375" />
+      </g>
+    </g>
   </g>
 </svg>
