@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
 /* CONFIGURAÇÕES DE FONTES */
-@import url('https://fonts.googleapis.com/css2?family=Amaranth&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 /* CONFIGURAÇÕES DE ATALHOS */
 :root {
-    --font: 'Amaranth', sans-serif;
+    --font: 'Ubuntu', sans-serif;
     --cor0: #D6D6D6;
     --cor1: #202020;
     --cor2: #333533;
@@ -43,21 +43,19 @@ section {
 
 main {
     font-family: var(--font);
-    margin-top: 10px;
     text-align: center;
 }
 
 .perfil img {
     height: 200px;
     width: 200px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 50px;
     border-radius: 50%;
     box-shadow: 0 0 10px var(--cor1);
 }
 
 .social>a>img {
-    margin: 0px 10px;
+    margin: 20px 10px;
     width: 50px;
     border-radius: 7px;
 }
@@ -66,15 +64,15 @@ main h1 {
     font-size: 2.3em;
     font-weight: bold;
     color: var(--cor0);
-    margin-top: 70px;
+    margin-top: 50px;
     padding: 10px 50px;
     text-align: center;
 }
 
-main p {
+article p {
     font-size: 1.3em;
     color: var(--cor0);
-    margin: 10px 50px;
+    margin: 30px 50px 0px 50px;
     text-indent: 1.3em;
     text-align: center;
 }
@@ -93,11 +91,11 @@ main p {
     width: 200px;
     height: 120px;
     border-radius: 10px;
-    filter: blur(2px);
+    filter: blur(0px);
 }
 
 #background:hover {
-    filter: blur(0px);
+    filter: blur(2px);
     transition: 0.2s;
 }
 
