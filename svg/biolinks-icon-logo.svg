@@ -32,7 +32,7 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g310" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2" />
   <g
@@ -46,7 +46,7 @@
        height="211.66667"
        x="-2.5431316e-06"
        y="-2.5431316e-06"
-       ry="60.515125" />
+       ry="40" />
     <g
        id="g310"
        transform="translate(0,-2.6458288)">
